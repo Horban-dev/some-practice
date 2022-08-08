@@ -1,0 +1,211 @@
+.containerr {
+    background-color: rgba(212, 148, 148, 0.423);
+    border: 2px solid rgb(61, 33, 33);
+    border-radius: 7px;
+    margin: 10px;
+    height: 220px;
+    display: none;
+}
+.questions {
+    margin: 0 auto;
+}
+
+#questions1 {
+    display: block;
+}
+#questions2 {
+    display: none;
+}
+#buttons {
+    text-align: center;
+    display: block;
+}
+#next {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+h1, p {
+    text-align: center;
+}
+
+/*                                          // TIMER
+.wrapper {
+    background-color: #0231;
+    display: block;
+    
+}   */
+
+
+/* //                TO-DO-LIST */
+
+#doList {
+    
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(255, 255, 255);
+}
+#block {
+    position: relative;
+    margin: 20px 50px;
+    padding: 30px 20px;
+    background-color: rgb(97, 73, 73);
+}
+#input {
+    position: relative;
+    background-color: white;
+    height: 50px;
+    width: 75%;
+    margin: 15px;
+    border-radius: 15px;
+}
+#btn {
+    background-color:rgb(137, 114, 159);
+    color: white;
+    border-radius: 15px;
+    height: 50px;
+    width: 60px;
+} 
+#list {
+    background-color: white;
+}
+.li {
+    list-style-type: upper-roman
+}
+.text{
+    border-radius: 5px;
+    align-items: center;
+    border: 1px solid #939697;
+    background-color: #c5e1e6;
+    height: 50px;
+    padding: 5px 10px;
+    list-style-type: none;
+    position: relative;    
+}
+#textname {
+    height: 10px;
+    background-color: #c5e1e6;
+    padding: 15px;    
+} 
+
+
+
+header {
+    
+    display: block;
+    height: 200px;
+    background-color: rgb(104, 159, 127);
+}
+#nav {
+    margin-top: 20px;
+    top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+#elem {
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+#modal, #modal1 {
+display: none; 
+position: fixed; 
+z-index: 1; 
+left: 0;
+top: 0;
+width: 100%; 
+height: 100%; 
+overflow: auto; 
+background-color: rgb(0,0,0); 
+background-color: rgba(0,0,0,0.4); 
+}
+#content {
+background-color: #fefefe;
+margin: 3% auto; 
+padding: 20px;
+border: 1px solid #888;
+width: 80%; 
+}
+#nav button {
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:rgb(189, 199, 150);
+    border: 1px solid;
+}
+#close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 55px;
+    right: 155px;
+  }
+  
+  #close:hover,
+  #close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+#title {
+    text-align: center;
+}
+#text {
+  margin-left: 5px;
+  line-height: 45px;
+  margin-top: 75px;
+}
+#img_text {
+    display: flex;
+}
+
+#row {
+    border: 2px solid black;
+    width: 88px;
+    height: 30px;
+    border-radius: 10px;
+    z-index: 10;
+    position: absolute;
+    margin: 0 auto;
+}
+#img1 {
+    display: none;
+    height: 500px;
+    width: 700px; 
+}
+
+/*       REGISTRATION */
+
+ /* .gradient-custom-3 {
+  
+    background: #84fab0;
+    
+  
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    
+
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+    }
+#reg {
+    width: 600px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-uppercase text-center mb-5 {
+    text-align: center;
+}
+#form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
